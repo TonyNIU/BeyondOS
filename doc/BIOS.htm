@@ -1,0 +1,377 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0050)http://ceccai.jmu.edu.cn/weijiyuanli/fulu/BIOS.htm -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=GBK"><title>第5章</title>
+
+<meta content="Microsoft FrontPage 4.0" name="GENERATOR"></head>
+<body background="">
+<p align="center"><font face="楷体_GB2312" color="#4876a8"><strong><big><big>BIOS</big></big></strong></font></p>
+<table width="100%" border="1">
+  <tbody>
+  <tr>
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(255,0,255) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(255,0,255) 1px solid" width="5%"><font color="#ff8000">INT</font></td>
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(255,0,255); border-bottom: 1px solid rgb(255,0,255)" width="4%"><font color="#ff8000">AH</font></td>
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(255,0,255); border-bottom: 1px solid rgb(255,0,255)" width="30%"><font color="#ff8000">功能</font></td>
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(255,0,255) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(255,0,255) 1px solid" width="33%"><font color="#ff8000">调用参数</font></td>
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(255,0,255) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(255,0,255) 1px solid" width="28%"><font color="#ff8000">返回参数</font></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="5%"><font color="#800080">10<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></font></td>
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="4%"><font color="#ff0080">0<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></font></td>
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="30%"><font color="#008000">设置显示方式</font>
+      <p><font color="#008000">　</font></p>
+      <p><font color="#008000">　</font></p>
+      <p><font color="#008000">　</font></p>
+      <p><font color="#008000">　</font></p>
+      <p><font color="#008000">　</font></p>
+      <p><font color="#008000">　</font></p>
+      <p><font color="#008000">　</font></p>
+      <p><font color="#008000"><br><br><br><br><br><br><br><br></font></p></td>
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="33%"><font color="#0080c0">AL=00 40×25黑白方式<br>AL=01     
+      40×25彩色方式<br>AL=02 80×25黑白方式<br>AL=03 80×25彩色方式<br>AL=04     
+      320×200彩色图形方式<br>AL=05 320×200黑白图形方式<br>AL=06 320×200黑白图形方式<br>AL=07     
+      80×25单色文本方式<br>AL=08 160×200 16色图形 (PCjr)<br>AL=09 320×200 16色图形     
+      (PCjr)<br>AL=0A 640×200 16色图形 (PCjr)<br>AL=0B 保留(EGA)<br>AL=0C     
+      保留(EGA)<br>AL=0D 320×200 彩色图形 (EGA)<br>AL=0E 640×200 彩色图形 (EGA)<br>AL=0F     
+      640×350 黑白图形 (EGA)<br>AL=10 640×350 彩色图形 (EGA)<br>AL=11 640×480 单色图形     
+      (EGA)<br>AL=12 640×480 16色图形 (EGA)<br>AL=13 320×200 256色图形 (EGA)<br>AL=40     
+      80×30 彩色文本(CGE400)<br>AL=41 80×50 彩色文本(CGE400)<br>AL=42 640×400     
+      彩色图形(CGE400)</font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="28%"><font color="#8080c0">　</font></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="5%"><font color="#800080">10<br></font></td>
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="4%"><font color="#ff0080">1<br></font></td>
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="30%"><font color="#008000">置光标类型<br></font></td>
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="33%"><font color="#0080c0">(CH)<sub>0-3</sub>=光标起始行<br>(CL)<sub>0-3</sub>=光标结束行</font></td>
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="28%"><font color="#8080c0">　</font></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="5%"><font color="#800080">10<br></font></td>
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="4%"><font color="#ff0080">2<br></font></td>
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="30%"><font color="#008000">置光标位置<br></font></td>
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="33%"><font color="#0080c0">BH=页号<br>DH,DL=行,列</font></td>
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="28%"><font color="#8080c0">　</font></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="5%"><font color="#800080">10<br></font></td>
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="4%"><font color="#ff0080">3<br></font></td>
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="30%"><font color="#008000">读光标位置<br></font></td>
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="33%"><font color="#0080c0">BH=页号<br></font></td>
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="28%"><font color="#8080c0">CH=光标起始行<br>DH,DL=行,列</font></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="5%"><font color="#800080">10<br><br><br><br><br></font></td>
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="4%"><font color="#ff0080">4<br><br><br><br><br></font></td>
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="30%"><font color="#008000">读光笔位置<br><br><br><br><br></font></td>
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="33%"><font color="#0080c0">　</font></td>
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="28%"><font color="#8080c0">AH=0 光笔未触发<br>&nbsp; =1     
+      光笔触发<br>CH=象素行<br>BX=象素列<br>DH=字符行<br>DL=字符列</font></td></tr>    
+  <tr>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="5%"><font color="#800080">10</font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="4%"><font color="#ff0080">5</font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="30%"><font color="#008000">置显示页</font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="33%"><font color="#0080c0">AL=页号</font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="28%"><font color="#8080c0">　</font></td></tr>    
+  <tr>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="5%"><font color="#800080">10<br><br><br><br><br><br></font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="4%"><font color="#ff0080">6<br><br><br><br><br><br></font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="30%"><font color="#008000">屏幕初始化或上卷<br><br><br><br><br><br></font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="33%"><font color="#0080c0">AL=上卷行数<br>AL=0     
+      整个窗口空白<br>BH=卷入行属性<br>CH=左上角行号<br>CL=左上角列号<br>DH=右下角行号<br>DL=右下角列号</font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="28%"><font color="#8080c0">　</font></td></tr>    
+  <tr>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="5%"><font color="#800080">10<br><br><br><br><br><br></font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="4%"><font color="#ff0080">7<br><br><br><br><br><br></font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="30%"><font color="#008000">屏幕初始化或下卷<br><br><br><br><br><br></font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="33%"><font color="#0080c0">AL=下卷行数<br>AL=0     
+      整个窗口空白<br>BH=卷入行属性<br>CH=左上角行号<br>CL=左上角列号<br>DH=右下角行号<br>DL=右下角列号</font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="28%"><font color="#8080c0">　</font></td></tr>    
+  <tr>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="5%"><font color="#800080">10<br></font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="4%"><font color="#ff0080">8<br></font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="30%"><font color="#008000">读光标位置的字符和属性<br></font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="33%"><font color="#0080c0">BH=显示页<br></font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="28%"><font color="#8080c0">AH=属性<br>AL=字符</font></td></tr>    
+  <tr>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="5%"><font color="#800080">10<br><br><br></font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="4%"><font color="#ff0080">9<br><br><br></font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="30%"><font color="#008000">在光标位置显示字符及属性<br><br><br></font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="33%"><font color="#0080c0">BH=显示页<br>AL=字符<br>BL=属性<br>CX=字符重复次数</font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="28%"><font color="#8080c0">　</font></td></tr>    
+  <tr>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="5%"><font color="#800080">10<br><br></font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="4%"><font color="#ff0080">A<br><br></font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="30%"><font color="#008000">在光标位置显示字符<br><br></font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="33%"><font color="#0080c0">BH=显示页<br>AL=字符<br>CX=字符重复次数</font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="28%"><font color="#8080c0">　</font></td></tr>    
+  <tr>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="5%"><font color="#800080">10<br></font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="4%"><font color="#ff0080">B<br></font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="30%"><font color="#008000">置彩色调板(320×200图形)<br></font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="33%"><font color="#0080c0">BH=彩色调板ID<br>BL=和ID配套使用的颜色</font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="28%"><font color="#8080c0">　</font></td></tr>    
+  <tr>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="5%"><font color="#800080">10<br><br></font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="4%"><font color="#ff0080">C<br><br></font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="30%"><font color="#008000">写象素<br><br></font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="33%"><font color="#0080c0">DX=行(0-199)<br>CX=列(0-639)<br>AL=象素值</font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="28%"><font color="#8080c0">　</font></td></tr>    
+  <tr>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="5%"><font color="#800080">10<br></font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="4%"><font color="#ff0080">D<br></font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="30%"><font color="#008000">读象素<br></font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="33%"><font color="#0080c0">DX=行(0-199)<br>CX=列(0-639)</font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="28%"><font color="#8080c0">AL=象素值<br></font></td></tr>    
+  <tr>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="5%"><font color="#800080">10<br></font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="4%"><font color="#ff0080">E<br></font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="30%"><font color="#008000">显示字符<br>(光标前移)</font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="33%"><font color="#0080c0">AL=字符<br>BL=前景色</font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="28%"><font color="#8080c0">　</font></td></tr>    
+  <tr>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="5%"><font color="#800080">10<br></font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="4%"><font color="#ff0080">F<br></font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="30%"><font color="#008000">取当前显示方式<br></font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="33%"><font color="#0080c0">　</font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="28%"><font color="#8080c0">AH=字符列数<br>AL=显示方式</font></td></tr>    
+  <tr>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="5%"><font color="#800080">10<br><br><br><br><br><br><br><br><br><br><br></font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="4%"><font color="#ff0080">13<br><br><br><br><br><br><br><br><br><br><br></font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="30%"><font color="#008000">显示字符串(适用AT)<br><br><br><br><br><br><br><br><br><br><br></font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="33%"><font color="#0080c0">ES:BP=串地址<br>CX=串长度<br>DH,DL=起始行,列<br>BH=页号<br>AL=0,BL=属性<br>串:char,char,...<br>AL=1,BL=属性<br>串:char,char,...<br>AL=2<br>串:char,attr,char,attr,...<br>AL=3<br>串:char,attr,char,attr,...</font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="28%"><font color="#8080c0"><br><br><br>光标返回起始位置<br><br>光标跟随移动     
+      <br><br>光标返回起始位置<br><br>光标跟随移动 </font></td></tr>    
+  <tr>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="5%"><font color="#800080">11<br><br><br><br><br><br><br><br><br><br></font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="4%">　</td>
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="30%"><font color="#008000">设备检验<br><br><br><br><br><br><br><br><br><br></font></td>
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="33%"><font color="#0080c0">　</font></td>
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="28%"><font color="#8080c0">AX=返回值<br>bit0=1,配有磁盘<br>bit1=1,80287协处理器<br>bit4,5=01,40×25BW(彩色板)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     
+      =10,80×25BW(彩色板)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     
+      =11,80×25BW(黑白板)<br>bit6,7=罗盘驱动器<br>bit9,10,11=RS-232板号<br>bit12=游戏适配器<br>bit13=串行打印机<br>bit14,15=打印机号</font></td></tr>    
+  <tr>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="5%"><font color="#800080">12</font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="4%"><font color="#ff0080">　</font></td>
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="30%"><font color="#008000">测定存储器容量</font></td>
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="33%"><font color="#0080c0">　</font></td>
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="28%"><font color="#8080c0">AX=字节数(KB)</font></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="5%"><font color="#800080">13</font></td>
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="4%"><font color="#ff0080">0</font></td>
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="30%"><font color="#008000">软盘系统复位</font></td>
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="33%"><font color="#0080c0">　</font></td>
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="28%"><font color="#8080c0">　</font></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="5%"><font color="#800080">13</font></td>
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="4%"><font color="#ff0080">1</font></td>
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="30%"><font color="#008000">读软盘状态</font></td>
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="33%"><font color="#0080c0">　</font></td>
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="28%"><font color="#8080c0">AL=状态字节</font></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="5%"><font color="#800080">13<br><br><br></font></td>
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="4%"><font color="#ff0080">2<br><br><br></font></td>
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="30%"><font color="#008000">读磁盘<br><br><br></font></td>
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="33%"><font color="#0080c0">AL=扇区数<br>CH,CL=磁盘号,扇区号<br>DH,DL=磁头号,驱动器号<br>ES:BX=数据缓冲区地址</font></td>
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="28%"><font color="#8080c0">读成功:AH=0<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     
+      AL=读取的扇区数<br>读失败:AH=出错代码<br></font></td></tr>    
+  <tr>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="5%"><font color="#800080">13<br><br></font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="4%"><font color="#ff0080">3<br><br></font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="30%"><font color="#008000">写磁盘<br><br></font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="33%"><font color="#0080c0">同上<br><br></font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="28%"><font color="#8080c0">写成功:AH=0<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     
+      AL=写入的扇区数<br>写失败:AH=出错代码</font></td></tr>    
+  <tr>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="5%"><font color="#800080">13<br><br></font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="4%"><font color="#ff0080">4<br><br></font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="30%"><font color="#008000">检验磁盘扇区<br><br></font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="33%"><font color="#0080c0">同上(ES:BX不设置)<br><br></font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="28%"><font color="#8080c0">成功:AH=0<br>&nbsp;&nbsp;&nbsp;&nbsp;     
+      AL=检验的扇区数<br>失败:AH=出错代码</font></td></tr>    
+  <tr>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="5%"><font color="#800080">13<br></font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="4%"><font color="#ff0080">5<br></font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="30%"><font color="#008000">格式化盘磁道<br></font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="33%"><font color="#0080c0">ES:BX=磁道地址<br></font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="28%"><font color="#8080c0">成功:AH=0<br>失败:AH=出错代码</font></td></tr>    
+  <tr>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="5%"><font color="#800080">14<br></font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="4%"><font color="#ff0080">0<br></font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="30%"><font color="#008000">初始化串行通讯口<br></font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="33%"><font color="#0080c0">AL=初始化参数<br>DX=通讯口号(0,1)</font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="28%"><font color="#8080c0">AH=通信口状态<br>  
+      </font>b7:超时；b6:移位寄存器空；b5:保存寄存器空；b4:间断检测；b3:帧错；b2:奇偶错；b1:数据重叠；b0:数据准备好<font color="#8080c0"><br>AL=调制解调器状态<br>  
+      </font>b7:检测到接收线信号；b6:呼叫指示器；b5:数据机准备好；b4:清除发送；b3:检测的接收信号改变；b2:呼叫指示器结束；b1:改变数传机准备好状态；b0:改变清除发送状态</td></tr>   
+  <tr>   
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="5%"><font color="#800080">14<br><br><br></font></td>   
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="4%"><font color="#ff0080">1<br><br><br></font></td>   
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="30%"><font color="#008000">向串行通讯口写字符<br><br><br></font></td>   
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="33%"><font color="#0080c0">AL=字符<br>DX=通讯口号(0,1)<br><br></font></td>   
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="28%"><font color="#8080c0">写成功:(AH)<sub>7</sub>=0<br>写失败:(AH)<sub>7</sub>=1<br>(AH)<sub>0-6</sub>=通讯口状态</font></td></tr>   
+  <tr>   
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="5%"><font color="#800080">14<br><br><br></font></td>   
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="4%"><font color="#ff0080">2<br><br><br></font></td>   
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="30%"><font color="#008000">从串行通讯口读字符<br><br><br></font></td>   
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="33%"><font color="#0080c0">DX=通讯口号(0,1)<br><br><br></font></td>   
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="28%"><font color="#8080c0">读成功:(AH)<sub>7</sub>=0<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     
+      (AL)=字符<br>写失败:(AH)<sub>7</sub>=1<br>(AH)<sub>0-6</sub>=通讯口状态</font></td></tr>    
+  <tr>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="5%"><font color="#800080">14<br></font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="4%"><font color="#ff0080">3<br></font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="30%"><font color="#008000">取通讯口状态<br></font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="33%"><font color="#0080c0">DX=通讯口号(0,1)<br></font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="28%"><font color="#8080c0">AH=通讯口状态<br>AL=调制解调器状态</font></td></tr>    
+  <tr>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="5%"><font color="#800080">15</font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="4%"><font color="#ff0080">0</font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="30%"><font color="#008000">启动盒式磁带马达</font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="33%"><font color="#0080c0">　</font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="28%"><font color="#8080c0">　</font></td></tr>    
+  <tr>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="5%"><font color="#800080">15</font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="4%"><font color="#ff0080">1</font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="30%"><font color="#008000">停止盒式磁带马达</font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="33%"><font color="#0080c0">　</font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="28%"><font color="#8080c0">　</font></td></tr>    
+  <tr>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="5%"><font color="#800080">15<br><br><br><br></font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="4%"><font color="#ff0080">2<br><br><br><br></font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="30%"><font color="#008000">磁带分块读<br><br><br><br></font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="33%"><font color="#0080c0">ES:BX=数据传输区地址<br>CX=字节数<br><br><br></font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="28%"><font color="#8080c0">AH=状态字节<br>AH=00 读成功<br>&nbsp; =01     
+      冗余检验错<br>&nbsp; =02 无数据传输<br>&nbsp; =04 无引导</font></td></tr>    
+  <tr>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="5%"><font color="#800080">15<br></font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="4%"><font color="#ff0080">3<br></font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="30%"><font color="#008000">磁带分块写<br></font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="33%"><font color="#0080c0">DS:BX=数据传输区地址<br>CX=字节数</font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="28%"><font color="#8080c0">同上<br></font></td></tr>    
+  <tr>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="5%"><font color="#800080">16</font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="4%"><font color="#ff0080">0</font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="30%"><font color="#008000">从键盘读字符</font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="33%"><font color="#0080c0">　</font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="28%"><font color="#8080c0">AL=字符码<br>AH=扫描码</font></td></tr>    
+  <tr>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="5%"><font color="#800080">16<br><br></font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="4%"><font color="#ff0080">1<br><br></font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="30%"><font color="#008000">读键盘缓冲区字符<br><br></font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="33%"><font color="#0080c0">　</font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="28%"><font color="#8080c0">ZF=0 AL=字符码<br>&nbsp;&nbsp;&nbsp;&nbsp;     
+      AH=扫描码<br>ZF=1 缓冲区空</font></td></tr>    
+  <tr>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="5%"><font color="#800080">16</font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="4%"><font color="#ff0080">2</font></td>    
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="30%"><font color="#008000">读键盘状态字节</font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="33%"><font color="#0080c0">　</font></td>    
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="28%"><font color="#8080c0">AL=键盘状态字节<br>   
+      D7=1，Ins键<br>  
+      D6=1，Caps Lock键<br>  
+      D5=1，Num Lock键<br>  
+      D4=1，Scroll Lock键<br>  
+      D3=1，Alt键<br>  
+      D2=1，Ctrl键<br>  
+      D1=1，左Shift键<br>  
+      D0=1，右Shift键</font></td></tr>   
+  <tr>   
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="5%"><font color="#800080">17<br></font></td>   
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="4%"><font color="#ff0080">0<br></font></td>   
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="30%"><font color="#008000">打印字符<br>回送状态字节</font></td>   
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="33%"><font color="#0080c0">AL=字符<br>DX=打印机号</font></td>   
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="28%"><font color="#8080c0">AH=打印机状态字节<br>D7=1，空闲<br>  
+      D6=1，响应<br>  
+      D5=1，无纸<br>  
+      D4=1，已联机<br>  
+      D3=1，出错<br>  
+      D2=1，未用<br>  
+      D1=1，未用<br>  
+      D0=1，超时</font></td></tr>   
+  <tr>   
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="5%"><font color="#800080">17<br></font></td>   
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="4%"><font color="#ff0080">1<br></font></td>   
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="30%"><font color="#008000">初始化打印机<br>回送状态字节</font></td>   
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="33%"><font color="#0080c0">DX=打印机号<br></font></td>   
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="28%"><font color="#8080c0">AH=打印机状态字节<br></font></td></tr>   
+  <tr>   
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="5%"><font color="#800080">17</font></td>   
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="4%"><font color="#ff0080">2</font></td>   
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="30%"><font color="#008000">取状态字节</font></td>   
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="33%"><font color="#0080c0">DX=打印机号</font></td>   
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="28%"><font color="#8080c0">AH=打印机状态字节</font></td></tr>   
+  <tr>   
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="5%"><font color="#800080">1A<br></font></td>   
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="4%"><font color="#ff0080">0<br></font></td>   
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="30%"><font color="#008000">读时钟<br></font></td>   
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="33%"><font color="#0080c0">　</font></td>   
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="28%"><font color="#8080c0">CH:CL=时:分<br>DH:DL=秒:1/100秒</font></td></tr>   
+  <tr>   
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="5%"><font color="#800080">1A<br></font></td>   
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="4%"><font color="#ff0080">1<br></font></td>   
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="30%"><font color="#008000">置时钟<br></font></td>   
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="33%"><font color="#0080c0">CH:CL=时:分<br>DH:DL=秒:1/100秒</font></td>   
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="28%"><font color="#8080c0">　</font></td></tr>   
+  <tr>   
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="5%"><font color="#800080">1A<br></font></td>   
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="4%"><font color="#ff0080">2<br></font></td>   
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="30%"><font color="#008000">读实时钟<br></font></td>   
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="33%"><font color="#0080c0">　</font></td>   
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="28%"><font color="#8080c0">CH:CL=时:分(BCD)<br>DH:DL=秒:1/100秒(BCD)</font></td></tr>   
+  <tr>   
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="5%"><font color="#800080">1A</font></td>   
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="4%"><font color="#ff0080">3</font></td>   
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="30%"><font color="#008000">置实时钟</font></td>   
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="33%"><font color="#0080c0">CH:CL=时:分(BCD数)<br>DH=秒(BCD数)<br>  
+      DL=1夏令时、0标准时</font></td>   
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="28%">　</td></tr>  
+  <tr>   
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="5%"><font color="#800080">1A</font></td>   
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="4%"><font color="#ff0080">4</font></td>   
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="30%"><font color="#008000">读日期</font></td>   
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="33%">　</td>   
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="28%"><font color="#8080c0">CH=世纪(BCD数)<br>  
+      CL=年(BCD数)<br>  
+      DH=月(BCD数)<br>  
+      DL=日(BCD数)</font></td></tr>  
+  <tr>   
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="5%"><font color="#800080">1A</font></td>   
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="4%"><font color="#ff0080">5</font></td>   
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="30%"><font color="#008000">设置日期</font></td>   
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="33%"><font color="#0080c0">CH=世纪(BCD数)<br>  
+      CL=年(BCD数)<br>  
+      DH=月(BCD数)<br>  
+      DL=日(BCD数)</font></td> 
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="28%">　</td></tr>
+  <tr> 
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="5%"><font color="#800080">1A</font></td> 
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="4%"><font color="#ff0080">6</font></td> 
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top: 1px solid rgb(192,192,192); border-bottom: 1px solid rgb(192,192,192)" width="30%"><font color="#008000">置报警时间</font></td> 
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="33%"><font color="#0080c0">CH:CL=时:分(BCD)<br>DH:DL=秒:1/100秒(BCD)</font></td> 
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: rgb(192,192,192) 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(192,192,192) 1px solid" width="28%"><font color="#8080c0">　</font></td></tr>
+  <tr>
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(255,0,255) 1px solid" width="5%"><font color="#800080">1A</font></td>
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top-style: none; border-top-width: 0px; border-bottom: 1px solid rgb(255,0,255)" width="4%"><font color="#ff0080">7</font></td>
+    <td style="border-left-style: none; border-left-width: 0px; border-right-style: none; border-right-width: 0px; border-top-style: none; border-top-width: 0px; border-bottom: 1px solid rgb(255,0,255)" width="30%"><font color="#008000">清除报警</font></td>
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(255,0,255) 1px solid" width="33%"><font color="#0080c0">　</font></td>
+    <td style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: rgb(255,0,255) 1px solid" width="28%"><font color="#8080c0">　</font></td></tr></tbody></table>
+<div id="top" style="z-index: 100; left: 5px; width: 702px; position: absolute; top: -1px; height: 52px;">
+<script language="JavaScript">
+document.body.topMargin = 34;
+var maxz = 100;
+var adlayer;
+
+function topmost() {
+for(i=0;i<document.all.length;i++) {
+   obj = document.all.item(i);
+   if ( obj.tagName == 'DIV' ) {
+     if ( obj.style.zIndex > maxz) {
+       maxz = obj.style.zIndex+1;
+     }
+     if ( obj.name == 'top' || obj.id == 'top') {
+       adlayer = obj;
+     }
+   }
+}
+adlayer.style.zIndex = maxz;
+}
+
+topmost();
+
+</script>
+
+</div>
+</body></html>
