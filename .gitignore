@@ -13,5 +13,6 @@
 
 # Executables
 *.exe
+!dd.exe
 *.out
 *.app
